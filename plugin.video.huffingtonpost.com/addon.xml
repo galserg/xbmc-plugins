@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.huff"
+version="0.0.7"
+name="HUFFPOST Live"
+provider-name="Sergey Galuzin special for Andrex Selivanov">
+<requires>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">HUFFINGTON POST video on-line</summary>
+  <summary lang="ru">HUFFINGTON POSTT видео он-лайн</summary>
+  <description lang="en">Addon for watching HUFFINGTON POST video from XBMC.</description>
+  <description lang="ru">Дополнение для просмотра видео HUFFINGTON POST из XBMC.</description>
+  <platform>all</platform>
+</extension>
+</addon>
