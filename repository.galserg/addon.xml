@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.galserg" name="Sergey Galuzin XBMC Add-ons" version="1.0.1" provider-name="Sergey Galuzin">
+	<extension point="xbmc.addon.repository" name="Eugene Bond XBMC Add-ons">
+		<info compressed="false">https://github.com/galserg/xmbc-plugins/raw/master/addons.xml</info>
+		<checksum>https://github.com/galserg/xmbc-plugins/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/galserg/xmbc-plugins/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from GalSerg's Add-on Repository</summary>
+		<description>Plug-ins for XBMC</description>
+		<disclaimer>There are add-ons that allow viewing popular IPTV channels in the program XBMC</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
