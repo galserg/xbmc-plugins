@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.huffingtonpost.com"
-version="0.1.1"
-name="Huffington Post Live"
-provider-name="Sergey Galuzin special for Andrex Selivanov">
-<requires>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>video</provides>
-</extension>
+       version="0.1.1"
+       name="Huffington Post Live"
+       provider-name="Sergey Galuzin special for Andrex Selivanov">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             provides="video"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">HUFFINGTON POST video on-line</summary>
   <summary lang="ru">HUFFINGTON POSTT видео он-лайн</summary>

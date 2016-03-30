@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.galserg" name="Sergey Galuzin XBMC Add-ons" version="1.0.1" provider-name="Sergey Galuzin">
-	<extension point="xbmc.addon.repository" name="Eugene Bond XBMC Add-ons">
+	<extension point="xbmc.addon.repository" name="Sergey Galuzin XBMC Add-ons">
 		<info compressed="false">https://github.com/galserg/xmbc-plugins/raw/master/addons.xml</info>
 		<checksum>https://github.com/galserg/xmbc-plugins/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/galserg/xmbc-plugins/raw/master/</datadir>

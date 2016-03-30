@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.huffingtonpost.com"
-version="0.1.1"
-name="Huffington Post Live"
-provider-name="Sergey Galuzin special for Andrex Selivanov">
-<requires>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>video</provides>
-</extension>
+       version="0.1.1"
+       name="Huffington Post Live"
+       provider-name="Sergey Galuzin special for Andrex Selivanov">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             provides="video"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">HUFFINGTON POST video on-line</summary>
   <summary lang="ru">HUFFINGTON POSTT видео он-лайн</summary>
@@ -19,7 +22,7 @@ provider-name="Sergey Galuzin special for Andrex Selivanov">
 </addon>
 
 <addon id="repository.galserg" name="Sergey Galuzin XBMC Add-ons" version="1.0.1" provider-name="Sergey Galuzin">
-	<extension point="xbmc.addon.repository" name="Eugene Bond XBMC Add-ons">
+	<extension point="xbmc.addon.repository" name="Sergey Galuzin XBMC Add-ons">
 		<info compressed="false">https://github.com/galserg/xmbc-plugins/raw/master/addons.xml</info>
 		<checksum>https://github.com/galserg/xmbc-plugins/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/galserg/xmbc-plugins/raw/master/</datadir>
