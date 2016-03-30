@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.huff"
-version="0.0.7"
-name="HUFFPOST Live"
+<addon id="plugin.video.huffingtonpost.com"
+version="0.1.0"
+name="Huffington Post Live"
 provider-name="Sergey Galuzin special for Andrex Selivanov">
 <requires>
 </requires>
