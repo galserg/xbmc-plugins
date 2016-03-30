@@ -27,6 +27,7 @@ def main():
             xbmc.log("huffpost %s playing %s" % (st, pl))
             playlist.add(pl)
             player.play(playlist)
+            status = st
 
         xbmc.sleep(2000)
 
